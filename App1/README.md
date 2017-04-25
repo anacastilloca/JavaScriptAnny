@@ -8,9 +8,14 @@ sails new App
 1. Sails
   * sails new
   - sails lift
+  
 2. Docker
+   1. ss
 3. WebStorm
 4. Postman
 5. Dbeaver
+## Link
+* [Go google](https://www.google.com)
+* [!Imagen perro](http://correo.epn.edu.ec)
 
 a [Sails](http://sailsjs.org) application
