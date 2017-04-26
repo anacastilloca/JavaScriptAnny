@@ -58,4 +58,12 @@ La clave de usuario **root**
 >> docker run --name postgresanny -e POSTGRES_PASSWORD=123456 -e POSTGRES_USER=anny -e POSTGRES_DB=javascript -p 5432:5432 -d postgres
 ```
 
+```
+DOCUMENTAR TAREA
+```
+
+## MongoDB
+```
+>> docker run --name annymongo -p 27017:27017 -d mongo
+```
 
