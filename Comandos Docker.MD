@@ -43,7 +43,6 @@ Para utilizar docker con mysql se va a utilizar el siguiente cimando:
 ```
  docker run --name anny -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=anny -e MYSQL_USER=anny -e MYSQL_PASSWORD=123456 -p 3306:3306 -d mysql
 ```
-
 ### --name anny
 El nombre del contenedor
 
@@ -52,5 +51,11 @@ El nombre del contenedor
 La clave de usuario **root**
 
 ## -e MYSQL_DATABASE=anny
+
+## PostGresql
+
+```
+>> docker run --name postgresanny -e POSTGRES_PASSWORD=123456 -e POSTGRES_USER=anny -e POSTGRES_DB=javascript -p 5432:5432 -d postgres
+```
 
 
