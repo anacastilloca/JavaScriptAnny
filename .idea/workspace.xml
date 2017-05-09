@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff7ae15-d8c7-4d21-a2d2-d083c2026850" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_srctipt/Buckles/Buckles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_srctipt/Sentencias de Control/SDE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_srctipt/TempleString/templeString.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_srctipt/app.js" afterPath="$PROJECT_DIR$/java_srctipt/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_srctipt/variables/variable.js" afterPath="$PROJECT_DIR$/java_srctipt/variables/variable.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,16 +36,37 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="479">
               <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-              <folding />
+              <folding>
+                <marker date="1494363758000" expanded="true" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
+                <marker date="1494363758000" expanded="true" signature="77:170" ph="//..." />
+                <marker date="1494363758000" expanded="true" signature="181:605" ph="{&quot;nombre&quot;: &quot;Ana&quot;...}" />
+                <marker date="1494363758000" expanded="true" signature="282:333" ph="{...}" />
+                <marker date="1494363758000" expanded="true" signature="356:478" ph="{...}" />
+                <marker date="1494363758000" expanded="true" signature="524:603" ph="{...}" />
+                <marker date="1494363758000" expanded="true" signature="606:670" ph="//..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="templeString.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="templeString.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java_srctipt/TempleString/templeString.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="518">
               <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+              <folding>
+                <marker date="1494365448000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/9/17. ...*/" />
+                <marker date="1494365448000" expanded="true" signature="57:243" ph="/*...*/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fatFunctions.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_srctipt/Fat Arrow Functions/fatFunctions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-113">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -61,7 +78,16 @@
             <state relative-caret-position="146">
               <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding>
-                <element signature="e#0#39#0" expanded="false" />
+                <marker date="1494362863000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
+                <marker date="1494362863000" expanded="true" signature="40:123" ph="//..." />
+                <marker date="1494362863000" expanded="true" signature="765:1017" ph="{&quot;id&quot;: 1...}" />
+                <marker date="1494362863000" expanded="true" signature="949:1015" ph="{&quot;nombre&quot;: 'pipo'...}" />
+                <marker date="1494362863000" expanded="true" signature="1366:1398" ph="{...}" />
+                <marker date="1494362863000" expanded="true" signature="1732:1787" ph="{...}" />
+                <marker date="1494362863000" expanded="true" signature="1909:1970" ph="[...]" />
+                <marker date="1494362863000" expanded="true" signature="1915:1935" ph="{&quot;id&quot;: 1...}" />
+                <marker date="1494362863000" expanded="true" signature="1941:1968" ph="{&quot;nom&quot;: 'holaa'...}" />
+                <marker date="1494362863000" expanded="true" signature="2045:2187" ph="//..." />
               </folding>
             </state>
           </provider>
@@ -72,7 +98,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
               <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding />
+              <folding>
+                <marker date="1494361168000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/9/17. ...*/" />
+                <marker date="1494361168000" expanded="true" signature="72:100" ph="{...}" />
+                <marker date="1494361168000" expanded="true" signature="113:145" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,9 +111,17 @@
         <entry file="file://$PROJECT_DIR$/java_srctipt/Sentencias de Control/SDE.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
-              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
-                <element signature="e#0#39#0" expanded="false" />
+                <marker date="1494362691000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/9/17. ...*/" />
+                <marker date="1494362691000" expanded="true" signature="57:237" ph="//..." />
+                <marker date="1494362691000" expanded="true" signature="283:311" ph="{...}" />
+                <marker date="1494362691000" expanded="true" signature="316:347" ph="{...}" />
+                <marker date="1494362691000" expanded="true" signature="392:602" ph="{...}" />
+                <marker date="1494362691000" expanded="true" signature="405:447" ph="..." />
+                <marker date="1494362691000" expanded="true" signature="459:502" ph="..." />
+                <marker date="1494362691000" expanded="true" signature="514:556" ph="..." />
+                <marker date="1494362691000" expanded="true" signature="569:600" ph="..." />
               </folding>
             </state>
           </provider>
@@ -95,7 +133,14 @@
             <state relative-caret-position="-766">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
-                <element signature="n#!!doc;n#holaMundo#0" expanded="false" />
+                <marker date="1493841508000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
+                <marker date="1493841508000" expanded="true" signature="62:91" ph="{...}" />
+                <marker date="1493841508000" expanded="true" signature="149:168" ph="{...}" />
+                <marker date="1493841508000" expanded="true" signature="239:258" ph="{...}" />
+                <marker date="1493841508000" expanded="true" signature="294:440" ph="//..." />
+                <marker date="1493841508000" expanded="true" signature="442:538" ph="//..." />
+                <marker date="1493841508000" expanded="true" signature="564:609" ph="{...}" />
+                <marker date="1493841508000" expanded="true" signature="764:792" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -143,6 +188,7 @@
         <option value="$PROJECT_DIR$/java_srctipt/variables/variable.js" />
         <option value="$PROJECT_DIR$/java_srctipt/app.js" />
         <option value="$PROJECT_DIR$/java_srctipt/TempleString/templeString.js" />
+        <option value="$PROJECT_DIR$/java_srctipt/Fat Arrow Functions/fatFunctions.js" />
       </list>
     </option>
   </component>
@@ -156,8 +202,8 @@
     <handled-path value="$PROJECT_DIR$/App1/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="628" />
-    <option name="y" value="379" />
+    <option name="x" value="979" />
+    <option name="y" value="232" />
     <option name="width" value="1481" />
     <option name="height" value="1000" />
   </component>
@@ -201,24 +247,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java_srctipt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptAnny" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScriptAnny" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_srctipt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="variables" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,19 +366,21 @@
       <workItem from="1493755479599" duration="3925000" />
       <workItem from="1493835251913" duration="5806000" />
       <workItem from="1494073455918" duration="7000" />
-      <workItem from="1494360307620" duration="3747000" />
+      <workItem from="1494360307620" duration="4235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22079000" />
+    <option name="totallyTimeSpent" value="22567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="628" y="379" width="1481" height="1000" extended-state="0" />
+    <frame x="979" y="232" width="1481" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -362,7 +392,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -377,16 +406,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java_srctipt/variables/variable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3589">
-          <caret line="97" column="22" lean-forward="false" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App1/.tmp/localDiskDb.db">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -400,7 +419,14 @@
         <state relative-caret-position="1073">
           <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
-            <element signature="n#!!doc;n#holaMundo#0" expanded="false" />
+            <marker date="1493841508000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
+            <marker date="1493841508000" expanded="true" signature="62:91" ph="{...}" />
+            <marker date="1493841508000" expanded="true" signature="149:168" ph="{...}" />
+            <marker date="1493841508000" expanded="true" signature="239:258" ph="{...}" />
+            <marker date="1493841508000" expanded="true" signature="294:440" ph="//..." />
+            <marker date="1493841508000" expanded="true" signature="442:538" ph="//..." />
+            <marker date="1493841508000" expanded="true" signature="564:609" ph="{...}" />
+            <marker date="1493841508000" expanded="true" signature="764:792" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -420,7 +446,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
+          <folding>
+            <marker date="1494363758000" expanded="true" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
+            <marker date="1494363758000" expanded="true" signature="77:170" ph="//..." />
+            <marker date="1494363758000" expanded="true" signature="181:605" ph="{&quot;nombre&quot;: &quot;Ana&quot;...}" />
+            <marker date="1494363758000" expanded="true" signature="282:333" ph="{...}" />
+            <marker date="1494363758000" expanded="true" signature="356:478" ph="{...}" />
+            <marker date="1494363758000" expanded="true" signature="524:603" ph="{...}" />
+            <marker date="1494363758000" expanded="true" signature="606:670" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -429,7 +463,16 @@
         <state relative-caret-position="3589">
           <caret line="97" column="22" lean-forward="true" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
+            <marker date="1494362863000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
+            <marker date="1494362863000" expanded="true" signature="40:123" ph="//..." />
+            <marker date="1494362863000" expanded="true" signature="765:1017" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1494362863000" expanded="true" signature="949:1015" ph="{&quot;nombre&quot;: 'pipo'...}" />
+            <marker date="1494362863000" expanded="true" signature="1366:1398" ph="{...}" />
+            <marker date="1494362863000" expanded="true" signature="1732:1787" ph="{...}" />
+            <marker date="1494362863000" expanded="true" signature="1909:1970" ph="[...]" />
+            <marker date="1494362863000" expanded="true" signature="1915:1935" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1494362863000" expanded="true" signature="1941:1968" ph="{&quot;nom&quot;: 'holaa'...}" />
+            <marker date="1494362863000" expanded="true" signature="2045:2187" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -447,7 +490,14 @@
         <state relative-caret-position="1073">
           <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
-            <element signature="n#!!doc;n#holaMundo#0" expanded="false" />
+            <marker date="1493841508000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
+            <marker date="1493841508000" expanded="true" signature="62:91" ph="{...}" />
+            <marker date="1493841508000" expanded="true" signature="149:168" ph="{...}" />
+            <marker date="1493841508000" expanded="true" signature="239:258" ph="{...}" />
+            <marker date="1493841508000" expanded="true" signature="294:440" ph="//..." />
+            <marker date="1493841508000" expanded="true" signature="442:538" ph="//..." />
+            <marker date="1493841508000" expanded="true" signature="564:609" ph="{...}" />
+            <marker date="1493841508000" expanded="true" signature="764:792" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -531,16 +581,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
+          <folding>
+            <marker date="1494361168000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/9/17. ...*/" />
+            <marker date="1494361168000" expanded="true" signature="72:100" ph="{...}" />
+            <marker date="1494361168000" expanded="true" signature="113:145" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_srctipt/Sentencias de Control/SDE.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
+            <marker date="1494362691000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/9/17. ...*/" />
+            <marker date="1494362691000" expanded="true" signature="57:237" ph="//..." />
+            <marker date="1494362691000" expanded="true" signature="283:311" ph="{...}" />
+            <marker date="1494362691000" expanded="true" signature="316:347" ph="{...}" />
+            <marker date="1494362691000" expanded="true" signature="392:602" ph="{...}" />
+            <marker date="1494362691000" expanded="true" signature="405:447" ph="..." />
+            <marker date="1494362691000" expanded="true" signature="459:502" ph="..." />
+            <marker date="1494362691000" expanded="true" signature="514:556" ph="..." />
+            <marker date="1494362691000" expanded="true" signature="569:600" ph="..." />
           </folding>
         </state>
       </provider>
@@ -550,7 +612,14 @@
         <state relative-caret-position="-766">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc;n#holaMundo#0" expanded="false" />
+            <marker date="1493841508000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
+            <marker date="1493841508000" expanded="true" signature="62:91" ph="{...}" />
+            <marker date="1493841508000" expanded="true" signature="149:168" ph="{...}" />
+            <marker date="1493841508000" expanded="true" signature="239:258" ph="{...}" />
+            <marker date="1493841508000" expanded="true" signature="294:440" ph="//..." />
+            <marker date="1493841508000" expanded="true" signature="442:538" ph="//..." />
+            <marker date="1493841508000" expanded="true" signature="564:609" ph="{...}" />
+            <marker date="1493841508000" expanded="true" signature="764:792" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -560,7 +629,16 @@
         <state relative-caret-position="146">
           <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
+            <marker date="1494362863000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
+            <marker date="1494362863000" expanded="true" signature="40:123" ph="//..." />
+            <marker date="1494362863000" expanded="true" signature="765:1017" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1494362863000" expanded="true" signature="949:1015" ph="{&quot;nombre&quot;: 'pipo'...}" />
+            <marker date="1494362863000" expanded="true" signature="1366:1398" ph="{...}" />
+            <marker date="1494362863000" expanded="true" signature="1732:1787" ph="{...}" />
+            <marker date="1494362863000" expanded="true" signature="1909:1970" ph="[...]" />
+            <marker date="1494362863000" expanded="true" signature="1915:1935" ph="{&quot;id&quot;: 1...}" />
+            <marker date="1494362863000" expanded="true" signature="1941:1968" ph="{&quot;nom&quot;: 'holaa'...}" />
+            <marker date="1494362863000" expanded="true" signature="2045:2187" ph="//..." />
           </folding>
         </state>
       </provider>
@@ -569,7 +647,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1494363758000" expanded="true" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
+            <marker date="1494363758000" expanded="true" signature="77:170" ph="//..." />
+            <marker date="1494363758000" expanded="true" signature="181:605" ph="{&quot;nombre&quot;: &quot;Ana&quot;...}" />
+            <marker date="1494363758000" expanded="true" signature="282:333" ph="{...}" />
+            <marker date="1494363758000" expanded="true" signature="356:478" ph="{...}" />
+            <marker date="1494363758000" expanded="true" signature="524:603" ph="{...}" />
+            <marker date="1494363758000" expanded="true" signature="606:670" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -577,6 +663,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
           <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <marker date="1494365448000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/9/17. ...*/" />
+            <marker date="1494365448000" expanded="true" signature="57:243" ph="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_srctipt/Fat Arrow Functions/fatFunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
         </state>
       </provider>
