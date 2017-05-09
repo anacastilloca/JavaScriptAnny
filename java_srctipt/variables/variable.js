@@ -79,7 +79,7 @@ var objetoconArreglo = {
 }
 console.log(objetoconArreglo.papas[1]);
 
-var matriz = [[0,1],[2.3]];
+var matriz = [[0,1],[2,3]];
 console.log(matriz[0][0]);
 
 var arreglosConObjetos =[
@@ -99,6 +99,8 @@ console.log("Agregar",arreglosConObjetos);
 
     arreglosConObjetos.splice(0,1);
      console.log("Agregarss",arreglosConObjetos);
+
+
 
 
 
