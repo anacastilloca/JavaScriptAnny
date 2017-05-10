@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff7ae15-d8c7-4d21-a2d2-d083c2026850" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_srctipt/Object Literal/objectLiteral.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_srctipt/For Each/forEach.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -61,13 +61,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="objectLiteral.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="objectLiteral.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java_srctipt/Object Literal/objectLiteral.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="479">
               <caret line="43" column="2" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc;n#definirObjetoUsuario#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forEach.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_srctipt/For Each/forEach.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -119,16 +131,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="localDiskDb.db" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App1/.tmp/localDiskDb.db">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -163,6 +165,7 @@
         <option value="$PROJECT_DIR$/java_srctipt/TempleString/templeString.js" />
         <option value="$PROJECT_DIR$/java_srctipt/Fat Arrow Functions/fatFunctions.js" />
         <option value="$PROJECT_DIR$/java_srctipt/Object Literal/objectLiteral.js" />
+        <option value="$PROJECT_DIR$/java_srctipt/For Each/forEach.js" />
       </list>
     </option>
   </component>
@@ -341,12 +344,12 @@
       <workItem from="1493835251913" duration="5806000" />
       <workItem from="1494073455918" duration="7000" />
       <workItem from="1494360307620" duration="4235000" />
-      <workItem from="1494439636620" duration="345000" />
+      <workItem from="1494439636620" duration="644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22912000" />
+    <option name="totallyTimeSpent" value="23211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="979" y="232" width="1481" height="1000" extended-state="0" />
@@ -381,16 +384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java_srctipt/funciones/funciones.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1073">
-          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#holaMundo#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -574,6 +567,16 @@
           <caret line="43" column="2" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc;n#definirObjetoUsuario#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_srctipt/For Each/forEach.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
