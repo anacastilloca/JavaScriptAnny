@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff7ae15-d8c7-4d21-a2d2-d083c2026850" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_srctipt/Object Literal/objectLiteral.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,17 +34,9 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java_srctipt/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
+            <state relative-caret-position="851">
               <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-              <folding>
-                <marker date="1494363758000" expanded="true" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
-                <marker date="1494363758000" expanded="true" signature="77:170" ph="//..." />
-                <marker date="1494363758000" expanded="true" signature="181:605" ph="{&quot;nombre&quot;: &quot;Ana&quot;...}" />
-                <marker date="1494363758000" expanded="true" signature="282:333" ph="{...}" />
-                <marker date="1494363758000" expanded="true" signature="356:478" ph="{...}" />
-                <marker date="1494363758000" expanded="true" signature="524:603" ph="{...}" />
-                <marker date="1494363758000" expanded="true" signature="606:670" ph="//..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,20 +46,29 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="518">
               <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-              <folding>
-                <marker date="1494365448000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/9/17. ...*/" />
-                <marker date="1494365448000" expanded="true" signature="57:243" ph="/*...*/" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fatFunctions.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fatFunctions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java_srctipt/Fat Arrow Functions/fatFunctions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
+            <state relative-caret-position="37">
               <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="objectLiteral.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_srctipt/Object Literal/objectLiteral.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="43" column="2" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc;n#definirObjetoUsuario#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,19 +76,10 @@
       <file leaf-file-name="variable.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java_srctipt/variables/variable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="3700">
               <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding>
-                <marker date="1494362863000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
-                <marker date="1494362863000" expanded="true" signature="40:123" ph="//..." />
-                <marker date="1494362863000" expanded="true" signature="765:1017" ph="{&quot;id&quot;: 1...}" />
-                <marker date="1494362863000" expanded="true" signature="949:1015" ph="{&quot;nombre&quot;: 'pipo'...}" />
-                <marker date="1494362863000" expanded="true" signature="1366:1398" ph="{...}" />
-                <marker date="1494362863000" expanded="true" signature="1732:1787" ph="{...}" />
-                <marker date="1494362863000" expanded="true" signature="1909:1970" ph="[...]" />
-                <marker date="1494362863000" expanded="true" signature="1915:1935" ph="{&quot;id&quot;: 1...}" />
-                <marker date="1494362863000" expanded="true" signature="1941:1968" ph="{&quot;nom&quot;: 'holaa'...}" />
-                <marker date="1494362863000" expanded="true" signature="2045:2187" ph="//..." />
+                <element signature="e#0#39#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -98,11 +90,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
               <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding>
-                <marker date="1494361168000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/9/17. ...*/" />
-                <marker date="1494361168000" expanded="true" signature="72:100" ph="{...}" />
-                <marker date="1494361168000" expanded="true" signature="113:145" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,18 +98,10 @@
       <file leaf-file-name="SDE.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java_srctipt/Sentencias de Control/SDE.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="1221">
               <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
-                <marker date="1494362691000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/9/17. ...*/" />
-                <marker date="1494362691000" expanded="true" signature="57:237" ph="//..." />
-                <marker date="1494362691000" expanded="true" signature="283:311" ph="{...}" />
-                <marker date="1494362691000" expanded="true" signature="316:347" ph="{...}" />
-                <marker date="1494362691000" expanded="true" signature="392:602" ph="{...}" />
-                <marker date="1494362691000" expanded="true" signature="405:447" ph="..." />
-                <marker date="1494362691000" expanded="true" signature="459:502" ph="..." />
-                <marker date="1494362691000" expanded="true" signature="514:556" ph="..." />
-                <marker date="1494362691000" expanded="true" signature="569:600" ph="..." />
+                <element signature="e#0#39#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -130,17 +110,10 @@
       <file leaf-file-name="funciones.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java_srctipt/funciones/funciones.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-766">
+            <state relative-caret-position="74">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
-                <marker date="1493841508000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
-                <marker date="1493841508000" expanded="true" signature="62:91" ph="{...}" />
-                <marker date="1493841508000" expanded="true" signature="149:168" ph="{...}" />
-                <marker date="1493841508000" expanded="true" signature="239:258" ph="{...}" />
-                <marker date="1493841508000" expanded="true" signature="294:440" ph="//..." />
-                <marker date="1493841508000" expanded="true" signature="442:538" ph="//..." />
-                <marker date="1493841508000" expanded="true" signature="564:609" ph="{...}" />
-                <marker date="1493841508000" expanded="true" signature="764:792" ph="{...}" />
+                <element signature="n#!!doc;n#holaMundo#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -189,6 +162,7 @@
         <option value="$PROJECT_DIR$/java_srctipt/app.js" />
         <option value="$PROJECT_DIR$/java_srctipt/TempleString/templeString.js" />
         <option value="$PROJECT_DIR$/java_srctipt/Fat Arrow Functions/fatFunctions.js" />
+        <option value="$PROJECT_DIR$/java_srctipt/Object Literal/objectLiteral.js" />
       </list>
     </option>
   </component>
@@ -223,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,6 +225,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -367,11 +341,12 @@
       <workItem from="1493835251913" duration="5806000" />
       <workItem from="1494073455918" duration="7000" />
       <workItem from="1494360307620" duration="4235000" />
+      <workItem from="1494439636620" duration="345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22567000" />
+    <option name="totallyTimeSpent" value="22912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="979" y="232" width="1481" height="1000" extended-state="0" />
@@ -380,19 +355,19 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,27 +381,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App1/.tmp/localDiskDb.db">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_srctipt/funciones/funciones.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1073">
           <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
-            <marker date="1493841508000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
-            <marker date="1493841508000" expanded="true" signature="62:91" ph="{...}" />
-            <marker date="1493841508000" expanded="true" signature="149:168" ph="{...}" />
-            <marker date="1493841508000" expanded="true" signature="239:258" ph="{...}" />
-            <marker date="1493841508000" expanded="true" signature="294:440" ph="//..." />
-            <marker date="1493841508000" expanded="true" signature="442:538" ph="//..." />
-            <marker date="1493841508000" expanded="true" signature="564:609" ph="{...}" />
-            <marker date="1493841508000" expanded="true" signature="764:792" ph="{...}" />
+            <element signature="n#!!doc;n#holaMundo#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -446,15 +406,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding>
-            <marker date="1494363758000" expanded="true" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
-            <marker date="1494363758000" expanded="true" signature="77:170" ph="//..." />
-            <marker date="1494363758000" expanded="true" signature="181:605" ph="{&quot;nombre&quot;: &quot;Ana&quot;...}" />
-            <marker date="1494363758000" expanded="true" signature="282:333" ph="{...}" />
-            <marker date="1494363758000" expanded="true" signature="356:478" ph="{...}" />
-            <marker date="1494363758000" expanded="true" signature="524:603" ph="{...}" />
-            <marker date="1494363758000" expanded="true" signature="606:670" ph="//..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -463,16 +415,7 @@
         <state relative-caret-position="3589">
           <caret line="97" column="22" lean-forward="true" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
           <folding>
-            <marker date="1494362863000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
-            <marker date="1494362863000" expanded="true" signature="40:123" ph="//..." />
-            <marker date="1494362863000" expanded="true" signature="765:1017" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1494362863000" expanded="true" signature="949:1015" ph="{&quot;nombre&quot;: 'pipo'...}" />
-            <marker date="1494362863000" expanded="true" signature="1366:1398" ph="{...}" />
-            <marker date="1494362863000" expanded="true" signature="1732:1787" ph="{...}" />
-            <marker date="1494362863000" expanded="true" signature="1909:1970" ph="[...]" />
-            <marker date="1494362863000" expanded="true" signature="1915:1935" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1494362863000" expanded="true" signature="1941:1968" ph="{&quot;nom&quot;: 'holaa'...}" />
-            <marker date="1494362863000" expanded="true" signature="2045:2187" ph="//..." />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -490,14 +433,7 @@
         <state relative-caret-position="1073">
           <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
-            <marker date="1493841508000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
-            <marker date="1493841508000" expanded="true" signature="62:91" ph="{...}" />
-            <marker date="1493841508000" expanded="true" signature="149:168" ph="{...}" />
-            <marker date="1493841508000" expanded="true" signature="239:258" ph="{...}" />
-            <marker date="1493841508000" expanded="true" signature="294:440" ph="//..." />
-            <marker date="1493841508000" expanded="true" signature="442:538" ph="//..." />
-            <marker date="1493841508000" expanded="true" signature="564:609" ph="{...}" />
-            <marker date="1493841508000" expanded="true" signature="764:792" ph="{...}" />
+            <element signature="n#!!doc;n#holaMundo#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -569,93 +505,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_srctipt/Sentencias de Control.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java_srctipt/Sentencias de Control.js" />
     <entry file="file://$PROJECT_DIR$/java_srctipt/Buckles/Buckles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <marker date="1494361168000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/9/17. ...*/" />
-            <marker date="1494361168000" expanded="true" signature="72:100" ph="{...}" />
-            <marker date="1494361168000" expanded="true" signature="113:145" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_srctipt/Sentencias de Control/SDE.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="1221">
           <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding>
-            <marker date="1494362691000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/9/17. ...*/" />
-            <marker date="1494362691000" expanded="true" signature="57:237" ph="//..." />
-            <marker date="1494362691000" expanded="true" signature="283:311" ph="{...}" />
-            <marker date="1494362691000" expanded="true" signature="316:347" ph="{...}" />
-            <marker date="1494362691000" expanded="true" signature="392:602" ph="{...}" />
-            <marker date="1494362691000" expanded="true" signature="405:447" ph="..." />
-            <marker date="1494362691000" expanded="true" signature="459:502" ph="..." />
-            <marker date="1494362691000" expanded="true" signature="514:556" ph="..." />
-            <marker date="1494362691000" expanded="true" signature="569:600" ph="..." />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_srctipt/funciones/funciones.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-766">
+        <state relative-caret-position="74">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <marker date="1493841508000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
-            <marker date="1493841508000" expanded="true" signature="62:91" ph="{...}" />
-            <marker date="1493841508000" expanded="true" signature="149:168" ph="{...}" />
-            <marker date="1493841508000" expanded="true" signature="239:258" ph="{...}" />
-            <marker date="1493841508000" expanded="true" signature="294:440" ph="//..." />
-            <marker date="1493841508000" expanded="true" signature="442:538" ph="//..." />
-            <marker date="1493841508000" expanded="true" signature="564:609" ph="{...}" />
-            <marker date="1493841508000" expanded="true" signature="764:792" ph="{...}" />
+            <element signature="n#!!doc;n#holaMundo#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_srctipt/variables/variable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="3700">
           <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
           <folding>
-            <marker date="1494362863000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
-            <marker date="1494362863000" expanded="true" signature="40:123" ph="//..." />
-            <marker date="1494362863000" expanded="true" signature="765:1017" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1494362863000" expanded="true" signature="949:1015" ph="{&quot;nombre&quot;: 'pipo'...}" />
-            <marker date="1494362863000" expanded="true" signature="1366:1398" ph="{...}" />
-            <marker date="1494362863000" expanded="true" signature="1732:1787" ph="{...}" />
-            <marker date="1494362863000" expanded="true" signature="1909:1970" ph="[...]" />
-            <marker date="1494362863000" expanded="true" signature="1915:1935" ph="{&quot;id&quot;: 1...}" />
-            <marker date="1494362863000" expanded="true" signature="1941:1968" ph="{&quot;nom&quot;: 'holaa'...}" />
-            <marker date="1494362863000" expanded="true" signature="2045:2187" ph="//..." />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_srctipt/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
+        <state relative-caret-position="851">
           <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding>
-            <marker date="1494363758000" expanded="true" signature="0:39" ph="/** Created by USRDEL on 5/3/17. ...*/" />
-            <marker date="1494363758000" expanded="true" signature="77:170" ph="//..." />
-            <marker date="1494363758000" expanded="true" signature="181:605" ph="{&quot;nombre&quot;: &quot;Ana&quot;...}" />
-            <marker date="1494363758000" expanded="true" signature="282:333" ph="{...}" />
-            <marker date="1494363758000" expanded="true" signature="356:478" ph="{...}" />
-            <marker date="1494363758000" expanded="true" signature="524:603" ph="{...}" />
-            <marker date="1494363758000" expanded="true" signature="606:670" ph="//..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -663,18 +556,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
           <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding>
-            <marker date="1494365448000" expanded="false" signature="0:39" ph="/** Created by USRDEL on 5/9/17. ...*/" />
-            <marker date="1494365448000" expanded="true" signature="57:243" ph="/*...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_srctipt/Fat Arrow Functions/fatFunctions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
+        <state relative-caret-position="37">
           <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_srctipt/Object Literal/objectLiteral.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="43" column="2" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc;n#definirObjetoUsuario#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
