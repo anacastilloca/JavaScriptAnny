@@ -62,3 +62,14 @@ var anny = new Persona();
 anny.imprimirPersona();
 anny.fechaDeNacimiento = new Date();
 console.log(anny.fechaDeNacimiento);
+//FUNCIONES
+function SumarNumeros(num1, num2) {
+    return num1 * num2;
+}
+// Codigo java script en java Script
+var objeto = {
+    nombre: "aa",
+    imprimirNombre: function () {
+        return this.nombre;
+    }
+};
