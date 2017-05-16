@@ -32,4 +32,32 @@ interface UsuarioLogin{
     //para que sea opcional se pone ?
     direccion?:string
 }
-
+//Clases
+class Persona{
+    //es public por defecto
+   //ATRIBUTOS
+    nombre:string="Daniela";
+    private apellido:string="Castillo";
+    fechaDeNacimiento: Date;
+    //No se define parametros opcionales al inicio siempre al final ?
+    //CONSTRUCTOR
+    constructor(nombre?: string, apellido?: string, fechaDeNacimiento?: Date) {
+        /*this.nombre = nombre;
+        this.apellido = apellido;
+        this.fechaDeNacimiento = fechaDeNacimiento;*/
+    }
+    //public imprimirPersona():void{
+    //: significa definir el tipo de objeto
+    public imprimirPersona():UsuarioLogin{
+        console.log(this.nombre,this.apellido);
+        return {
+            nombre:this.nombre,
+            apellido:this.apellido
+        }
+    }
+}
+//Instanciacion de la clase
+let anny:Persona = new Persona();
+anny.imprimirPersona();
+anny.fechaDeNacimiento=new Date();
+console.log(anny.fechaDeNacimiento);

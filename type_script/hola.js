@@ -24,3 +24,32 @@ var usuario = {
     apellido: "Castillo",
     direccion: "sss2" //Este es un parametro opcional puede estar como no
 };
+//Clases
+var Persona = (function () {
+    //No se define parametros opcionales al inicio siempre al final ?
+    //CONSTRUCTOR
+    function Persona(nombre, apellido, fechaDeNacimiento) {
+        //es public por defecto
+        //ATRIBUTOS
+        this.nombre = "Daniela";
+        this.apellido = "Castillo";
+        /*this.nombre = nombre;
+        this.apellido = apellido;
+        this.fechaDeNacimiento = fechaDeNacimiento;*/
+    }
+    //public imprimirPersona():void{
+    //: significa definir el tipo de objeto
+    Persona.prototype.imprimirPersona = function () {
+        console.log(this.nombre, this.apellido);
+        return {
+            nombre: this.nombre,
+            apellido: this.apellido
+        };
+    };
+    return Persona;
+}());
+//Instanciacion de la clase
+var anny = new Persona();
+anny.imprimirPersona();
+anny.fechaDeNacimiento = new Date();
+console.log(anny.fechaDeNacimiento);
