@@ -41,10 +41,19 @@ var Persona = (function () {
     //: significa definir el tipo de objeto
     Persona.prototype.imprimirPersona = function () {
         console.log(this.nombre, this.apellido);
+        this.imprimirNombre("Maria");
         return {
             nombre: this.nombre,
             apellido: this.apellido
         };
+    };
+    Persona.prototype.imprimirNombre = function (nombre, apellido) {
+        if (apellido) {
+            console.log(nombre, apellido);
+        }
+        else {
+            console.log("Nombre: ", nombre);
+        }
     };
     return Persona;
 }());

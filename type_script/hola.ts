@@ -50,9 +50,17 @@ class Persona{
     //: significa definir el tipo de objeto
     public imprimirPersona():UsuarioLogin{
         console.log(this.nombre,this.apellido);
+        this.imprimirNombre("Maria");
         return {
             nombre:this.nombre,
             apellido:this.apellido
+        }
+    }
+    private imprimirNombre(nombre:string,apellido?:string):void{
+        if(apellido){
+            console.log(nombre,apellido);
+        }else {
+            console.log("Nombre: ",nombre);
         }
     }
 }
