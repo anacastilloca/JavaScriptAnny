@@ -11,6 +11,7 @@ export class AppComponent {
     nombre:"Ana",
     apellido:"Castillo"
   }
+  url:string="https://angular.io";
   constructor(){
     console.log("Constructor");
     this.holaMundo();
