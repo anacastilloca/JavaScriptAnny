@@ -13,6 +13,7 @@ export class AppComponent {
   }
   //Para probar bind- va a constructor
   parrafo:string="";
+  background:string="green";
   //Metodo para app.component.html
   url:string="https://angular.io";
 

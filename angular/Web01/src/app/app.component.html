@@ -6,7 +6,15 @@
 
 <h3>Segunda forma con corchetes[]</h3>
 <p [innerText]="parrafo"></p>
-<p [style.color]="'red'" [innerText]="parrafo"></p>
+<p [style.color]="'green'" [innerText]="parrafo"></p>
+<p [style.color]="'white'"
+   [style.background-color]="background"
+   [innerText]="parrafo"></p>
+<!--Se puede usar los componentes cuntas veces se desee-->
+<app-estilo></app-estilo>
+<app-estilo></app-estilo>
+<app-estilo></app-estilo>
+
 
 <input type="text" [value]="parrafo">
 <!--Tag para salto de linea-->
