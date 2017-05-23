@@ -8,14 +8,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   usuario:UsuarioInterface= {
-    nombre:"Ana",
+    nombre:"",
     apellido:"Castillo"
   }
+  //Para probar bind- va a constructor
+  parrafo:string="";
+  //Metodo para app.component.html
   url:string="https://angular.io";
+
   constructor(){
-    console.log("Constructor");
-    this.holaMundo();
-    console.log(this.saludar(this.usuario.nombre,this.usuario.apellido))
+    this.usuario.nombre="Ana";
+    this.parrafo="Para usar el bind";
+    setTimeout(()=>{
+      this.usuario.nombre="Alejandra"
+    },3000)
+    //console.log("Constructor");
+    //this.holaMundo();
+    //console.log(this.saludar(this.usuario.nombre,this.usuario.apellido))
   }
   holaMundo(){
     console.log("Hola mundosss");
