@@ -19,3 +19,8 @@ h2 {
   color: red;
   background-color: black;
 }
+/*Para cambiar de colo al pasarle el mouse sobre la
+etiqueta*/
+p:hover{
+  border-color: #4d2926;
+}
