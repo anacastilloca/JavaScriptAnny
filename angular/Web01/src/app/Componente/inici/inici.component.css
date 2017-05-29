@@ -1,0 +1,84 @@
+#filaPrincipal{
+  height: 800px;
+}
+.col-sm-1{
+  font-size: 14pt;
+  font-family:sans-serif;
+  color: #999999;
+  line-height:3;
+}
+.col-sm-1:hover{
+  color: #101112;
+}
+.col-xl-1{
+  font-size: 14pt;
+  font-family:sans-serif;
+  font-weight: bold;
+  line-height:3;
+}
+#logo{
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.col-xl-12{
+  font-size: 1.9rem;
+  font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  color: white;
+  font-weight: 300;
+
+}
+p{
+  line-height:35px;
+}
+
+.boton{
+  line-height:100px;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #ffe484;
+  border-radius: .3rem;
+  border-color: #ffe484;
+}
+.boton:hover{
+  background-color: #ffe484;
+  color: #101112;
+}
+
+#version{
+  margin-bottom: 2rem;
+  color: #cdbfe3;
+  text-align: center;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+#urls{
+  max-width: 330px;
+  border-radius: .3rem;
+  border: 1px solid;
+  border-color: #866ab3;
+}
+#ibm{
+  line-height: 120px;
+}
+
+.col-md-7{
+  text-decoration: none;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size:13px;
+  font-weight:normal;
+}
+
+.col-sm-12{
+  margin: 0px 10px 10px 110px;
+  text-decoration: none;
+  color: #cdbfe3!important;
+  font-size: 14px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
