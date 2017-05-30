@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import {HttpModule} from "@angular/http";
 import { EstiloComponent } from './estilo/estilo.component';
 import { IniciComponent } from './Componente/inici/inici.component';
+import { ReplicaWebPagComponent } from './replica-web-pag/replica-web-pag.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EstiloComponent,
-    IniciComponent
+    IniciComponent,
+    ReplicaWebPagComponent
   ],
   imports: [
     BrowserModule,
@@ -18,6 +20,6 @@ import { IniciComponent } from './Componente/inici/inici.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [IniciComponent]
+  bootstrap: [ReplicaWebPagComponent]
 })
 export class AppModule { }
