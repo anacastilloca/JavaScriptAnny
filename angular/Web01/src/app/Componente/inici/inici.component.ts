@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./inici.component.css']
 })
 export class IniciComponent implements OnInit {
-
+  nombre:string="Ana";
   constructor() { }
 
   ngOnInit() {
+  }
+  cambiarNombre():void{
+    this.nombre="Andreaa"
+  }
+  cambiarOtroNombre(){
+    this.nombre="Mariaa"
+  }
+
+  cambiarNombreInput(){
+    
   }
 
 }
