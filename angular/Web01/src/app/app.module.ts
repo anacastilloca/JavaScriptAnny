@@ -20,6 +20,6 @@ import { ReplicaWebPagComponent } from './replica-web-pag/replica-web-pag.compon
     HttpModule
   ],
   providers: [],
-  bootstrap: [ReplicaWebPagComponent]
+  bootstrap: [IniciComponent]
 })
 export class AppModule { }
