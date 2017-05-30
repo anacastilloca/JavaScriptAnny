@@ -1,12 +1,46 @@
-<div class="continer">
-  <input type="text" [value]="nombre">
+<div class="container">
+  <h1>Bienvenido</h1>
+  <h2>Usuarios Conectador</h2>
+  <div class="row">
+      <div class="col-sm-4" *ngFor="let usuario of arregloUsuarios">
+        <div class="card" style="width: 20rem;">
+          <div class="card-block">
+            <h4 class="card-title">NOMBRE</h4>
+            <p class="card-text">{nombre} + Apellido.</p>
+            <a href="#" class="btn btn-primary btn-block">Ir a perfil</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+    <ul>
+      <li *ngFor="let usuario of arregloUsuarios">{{usuario.nombre}}</li>
+    </ul>
+
+</div>
+
+<br><br><br><br><br>
+<br>
+<br>
+
+
+
+
+
+
+<div class="container">
+  <!--<input placeholder="Ingreso de texto" type="text" [value]="nombre" #nombreEtiqueta>-->
+  <input placeholder="Ingreso de texto" type="text" [(ngModel)]="nombre">
   {{nombre}}
+  <!--del componente a la vista (data bind)-->
+  <img [src]="nombre" alt="">
   <br>
+
   <button class="btn btn-primary" (click)="cambiarNombre()">
     Cambiar nombre
   </button>
   <button (blur)="cambiarOtroNombre()">Clickeame</button>
-  <h1 (click)="cambiarOtroNombre()">Alejandra otra</h1>
+  <h1 (click)="cambiarNombreInput(nombreEtiqueta)">Alejandra otra vez</h1>
 </div>
 
 
