@@ -18,6 +18,7 @@ import { IniciComponent } from './Componente/inici/inici.component';
     HttpModule
   ],
   providers: [],
+  //http
   bootstrap: [IniciComponent]
 })
 export class AppModule { }

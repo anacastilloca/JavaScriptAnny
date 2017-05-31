@@ -2,21 +2,37 @@
   <h1>Bienvenido</h1>
   <h2>Usuarios Conectador</h2>
   <div class="row">
-      <div class="col-sm-4" *ngFor="let usuario of arregloUsuarios">
-        <div class="card" style="width: 20rem;">
+      <div *ngFor="let usuario of arregloUsuarios">
+        <div class="col-sm-4" *ngIf="usuario.conectado">
+        <div class="card" style="width: 20rem;" >
           <div class="card-block">
-            <h4 class="card-title">NOMBRE</h4>
+            <h4 class="card-title">{{usuario.nombre}} - {{usuario.conectado}}</h4>
             <p class="card-text">{{usuario.nombre}} {{usuario.apellido}}.</p>
             <a href="#" class="btn btn-primary btn-block">Ir a perfil</a>
           </div>
         </div>
+        </div>
       </div>
   </div>
 
-    <ul>
-      <li *ngFor="let usuario of arregloUsuarios">{{usuario.nombre}}</li>
-    </ul>
 
+  <p *ngIf="(1+1)==2">Hola</p>
+  <p *ngIf="(1+1)!=2">Adios</p>
+  <p *ngIf="undefined">Tal vez salga</p>
+  <p *ngIf="null">Tal vez salga null</p>
+  <p *ngIf="0">Tal vez salga cero </p>
+  <p *ngIf="nombre">Tal vez salga nombre</p>
+    <!--<ul>
+      <li *ngFor="let usuario of arregloUsuarios">{{usuario.nombre}}</li>
+    </ul>-->
+  <h2>Planetas de Star Wars</h2>
+  <br>
+  <button class="btn btn-outline-success" (click)="cargarPlanetas()">Cargar Planetas</button>
+  <ul >
+    <li *ngFor="let planetas of planetas">
+      {{planetas.name}}
+    </li>
+  </ul>
 </div>
 
 <br><br><br><br><br>
