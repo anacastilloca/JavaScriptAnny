@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import {HttpModule} from "@angular/http";
 import { EstiloComponent } from './estilo/estilo.component';
 import { IniciComponent } from './Componente/inici/inici.component';
+import { PlanetasComponent } from './Componente/planetas/planetas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EstiloComponent,
-    IniciComponent
+    IniciComponent,
+    PlanetasComponent
   ],
   imports: [
     BrowserModule,
@@ -19,6 +21,6 @@ import { IniciComponent } from './Componente/inici/inici.component';
   ],
   providers: [],
   //http
-  bootstrap: [IniciComponent]
+  bootstrap: [PlanetasComponent]
 })
 export class AppModule { }

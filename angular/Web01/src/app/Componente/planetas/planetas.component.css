@@ -1,0 +1,35 @@
+.container{
+  background-image: url("http://www.todopaisajes.com/1366x768/noche-de-luna.jpg");
+  color: white;
+  font-family: "Open Sans", "Myriad Pro", Arial, sans-serif;
+  font-size: 18px;
+}
+#titulo{
+  text-align: center;
+  font-size: 35px;
+}
+.btn{
+  color: green;
+  font-size: 25px;
+
+ }
+.lista{
+  list-style-type: none;
+}
+.datosplanetas{
+  margin-left: 40px;
+  line-height: 10px;
+  color: white;
+  font-weight: normal;
+}
+.nombre{
+  font-size: 30px;
+  color: blueviolet;
+  font-style: oblique;
+  font-family: "Open Sans", "Myriad Pro", Arial, sans-serif;
+}
+
+
+
+
+
