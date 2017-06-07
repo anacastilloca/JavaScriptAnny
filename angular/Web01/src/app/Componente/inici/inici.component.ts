@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {Http} from "@angular/http";
 import 'rxjs/add/operator/map'
 import {PlanetaStarWarsInterface} from "../../Interfaces/PlanetaStarWars";
+import {UsuarioClass} from "../../Clases/UsuarioClass";
 
 @Component({
   selector: 'app-inici',
@@ -10,8 +11,9 @@ import {PlanetaStarWarsInterface} from "../../Interfaces/PlanetaStarWars";
 })
 export class IniciComponent implements OnInit {
   nombre: string = "Ana";
-
-  planetas=[];
+  usuarios: UsuarioClass[]= [];
+  nuevoUsuario:UsuarioClass= new UsuarioClass("");
+  planetas: PlanetaStarWarsInterface[]=[];
  // planetas:PlanetaStarWarsInterface[]=[];
 
   arregloUsuarios = [{
@@ -40,6 +42,17 @@ export class IniciComponent implements OnInit {
   ngOnInit() {
     //Esta listo el componente...Aqui se pone la logica del componente porque aqui ya
     // esta listo
+    this._http.get("http://localhost:1337/Usuario")
+      .subscribe(respuesta=>{
+          let rjson:UsuarioClass[]=respuesta.json();
+          this.usuarios=rjson;
+          console.log("Usuarios: ",this.usuarios);
+        },
+        error=>{
+          console.log("Error: ",error);
+        }
+      )
+    console.log('Nuevo Usuario: ',this.nuevoUsuario)
   }
 
   cambiarNombre(): void {
@@ -84,5 +97,22 @@ export class IniciComponent implements OnInit {
       }
     )
   }
+
+  crearUsuario(){
+    /*
+    let usuario={
+      nombre:this.nuevoUsuario.nombre
+    }*/
+    this._http.post("http://localhost:1337/Usuario",this.nuevoUsuario)
+      .subscribe(respuesta=>{
+          let respuestaJson=respuesta.json();
+          console.log('respuestaJson: ',respuestaJson);
+        },
+        error=>{
+        console.log("Error ", error)
+        }
+      )
+  }
 }
+
 
