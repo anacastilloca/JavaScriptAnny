@@ -184,8 +184,8 @@
   <h2>Planetas</h2>
   <button class="btn btn-outline-success" (click)="cargarPlanetas()">Cargar Planetas</button>
   <div class="row">
-    <div class="col-sm-4" *ngFor="let planeta of planetas; let i=index;">
-      <app-planeta-star-wars [planeta]="planeta">
+    <div class="col-sm-4" *ngFor="let planetaVariable of planetas; let i=index;">
+      <app-planeta-star-wars [planeta]="planetaVariable">
 
 
       </app-planeta-star-wars>
