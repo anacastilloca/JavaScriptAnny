@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Http} from "@angular/http";
 import 'rxjs/add/operator/map'
+import {PlanetaStarWarsInterface} from "../../Interfaces/PlanetaStarWars";
 
 @Component({
   selector: 'app-inici',
@@ -11,6 +12,7 @@ export class IniciComponent implements OnInit {
   nombre: string = "Ana";
 
   planetas=[];
+ // planetas:PlanetaStarWarsInterface[]=[];
 
   arregloUsuarios = [{
     nombre: "Ana",
@@ -54,6 +56,7 @@ export class IniciComponent implements OnInit {
     console.log(nombreEtiqueta.placeholder);
     this.nombre = nombreEtiqueta.value
   }
+
   cargarPlanetas(){
     this._http.get("http://swapi.co/api/planets")
       //.map(response=>response.json())
@@ -65,6 +68,13 @@ export class IniciComponent implements OnInit {
         let respuesta=response.json();
         console.log(respuesta.next);
         this.planetas=respuesta.results;
+
+        this.planetas=this.planetas.map(
+          (planeta)=>{
+            planeta.imagenUrl = "assets/Imagenes/"+planeta.name+'.jpg';
+            return planeta;
+          }
+        )
       },
       (error)=>{
         console.log("Error: ",error);

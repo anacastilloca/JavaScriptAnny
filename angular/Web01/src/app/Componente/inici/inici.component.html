@@ -1,4 +1,4 @@
-<div class="container">
+<!--<div class="container">
   <h1>Bienvenido</h1>
   <h2>Usuarios Conectador</h2>
   <div class="row">
@@ -24,8 +24,11 @@
   <p *ngIf="nombre">Tal vez salga nombre</p>
     <!--<ul>
       <li *ngFor="let usuario of arregloUsuarios">{{usuario.nombre}}</li>
-    </ul>-->
-  <h2>Planetas de Star Wars</h2>
+    </ul>
+  OJO ESTE CIERRE ES DE UL al quitar <--! del continer
+  -->
+
+  <!--<h2>Planetas de Star Wars</h2>
   <br>
   <button class="btn btn-outline-success" (click)="cargarPlanetas()">Cargar Planetas</button>
   <ul >
@@ -45,10 +48,12 @@
 
 
 <div class="container">
-  <!--<input placeholder="Ingreso de texto" type="text" [value]="nombre" #nombreEtiqueta>-->
+  <!--<input placeholder="Ingreso de texto" type="text" [value]="nombre" #nombreEtiqueta> AQUI HIBA UN CIERRE DE COMENTARIO
+
+
   <input placeholder="Ingreso de texto" type="text" [(ngModel)]="nombre">
   {{nombre}}
-  <!--del componente a la vista (data bind)-->
+  <!--del componente a la vista (data bind)     AQUI HIBA UN CIERRE DE COMENTARIO
   <img [src]="nombre" alt="">
   <br>
 
@@ -90,29 +95,30 @@
 
 
 <!--Emmet-->
-  <!--p.r luego tab-->
+  <!--p.r luego tab AQUI HIBA UN CIERRE DE COMENTARIO
   <p class="r"></p>
-  <!--p#sss luego tab-->
+  <!--p#sss luego tab  AQUI HIBA UN CIERRE DE COMENTARIO
   <p id="sss"></p>
-  <!--div.b luego tab-->
+  <!--div.b luego tab  AQUI HIBA UN CIERRE DE COMENTARIO
   <div class="b"></div>
-  <!--img.eeee*2 luego tab-->
+  <!--img.eeee*2 luego tab  AQUI HIBA UN CIERRE DE COMENTARIO
   <img src="" alt="" class="eeee">
   <img src="" alt="" class="eeee">
-  <!--h1>a luego tab-->
+  <!--h1>a luego tab  AQUI HIBA UN CIERRE DE COMENTARIO
   <h1><a href=""></a></h1>
-  <!--h1.c1.c2.c3 luego tab-->
+  <!--h1.c1.c2.c3 luego tab  AQUI HIBA UN CIERRE DE COMENTARIO
   <h1 class="c1 c2 c3"></h1>
-  <!--.fila>.columna+.columna+h1 luego tab-->
+  <!--.fila>.columna+.columna+h1 luego tab  AQUI HIBA UN CIERRE DE COMENTARIO
   <div class="fila">
     <div class="columna"></div>
     <div class="columna"></div>
     <h1></h1>
   </div>
-  <!--INICIO PAGINA-->
+
+  <!--INICIO PAGINA  AQUI HIBA UN CIERRE DE COMENTARIO
   <h1>TITULO</h1>
   <div class="continer" >
-    <!--col-tamanio-valor-->
+    <!--col-tamanio-valor  AQUI HIBA UN CIERRE DE COMENTARIO
     <div class="row">
       <div style="background-color: red" class="col-sm-6">ROJO</div>
       <div style="background-color: red" class="col-sm-6">ROJO</div>
@@ -147,4 +153,19 @@
 
 
   </div>
+-->
 
+<!--AQUÍ INICIA LO DEL PLANETA DE STAR WARS ---------------------------------  -->
+<div class="container">
+  <h1>Bienvenido</h1>
+  <button class="btn btn-outline-success" (click)="cargarPlanetas()">Cargar Planetas</button>
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let planeta of planetas; let i=index;">
+      <app-planeta-star-wars [planeta]="planeta">
+
+
+      </app-planeta-star-wars>
+
+    </div>
+  </div>
+</div>
