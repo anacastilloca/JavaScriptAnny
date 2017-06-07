@@ -10,18 +10,18 @@
   </div>
 
 
-
-
   <br>
   <ul class="lista">
-    <li *ngFor="let planetas of planetas">
+    <li *ngFor="let planetas of planetas; let indice=index" >
 
       <div class="row">
         <div class="col-sm-3">
           <p class="nombre">
             <br><br><br>
-            {{planetas.name}}</p></div>
-        <div class="col-sm-9">
+            {{indice}} - {{planetas.name}}</p>
+        </div>
+        <!--Imagenes con URLs-->
+        <!--<div class="col-sm-9">
           <div class="imgplaneta" *ngIf="planetas.name=='Alderaan'" >
               <img src="http://images2.wikia.nocookie.net/__cb20100207072546/masseffect/images/thumb/7/7d/2175_aeia.jpg/320px-2175_aeia.jpg" width="270" height="270" alt="">
           </div>
@@ -52,11 +52,12 @@
           <div class="imgplaneta" *ngIf="planetas.name=='Geonosis'">
             <img src="https://www.universeguide.com/pictures/geonosis.jpg" width="280" height="270" alt="">
           </div>
-        </div>
+        </div>-->
       </div>
 
       <br>
       <div class="datosplanetas">
+        <img [src]="planetas.imagenUrl" alt="">
         <p>Periodo de Rotacion:  {{planetas.rotation_period}}</p>
         <p>Periodo Orbital: {{planetas.orbital_perio}}</p>
         <p>Diametro: {{planetas.diameter}}</p>
@@ -65,7 +66,13 @@
         <p>Terrono: {{planetas.terrain}}</p>
         <p>Superficie del Agua: {{planetas.surface_water}}</p>
         <p>Poblacion: {{planetas.population}}</p>
-        <p>Residentes: {{planetas.residents}}</p>
+        <p>Residentes:</p>
+        <ul>
+          <li *ngFor="let residentes of planetas.residents">
+           {{residentes}}
+          </li>
+        </ul>
+        <br>
         <p>Films: {{planetas.films}}</p>
         <p>Creado: {{planetas.created}}</p>
         <p>Editado: {{planetas.edited}}</p>

@@ -36,7 +36,7 @@ export class PlanetasComponent implements OnInit {
 
           this.planetas=this.planetas.map(
             (planeta)=>{
-              planeta.imagenUrl="assets/imagenes"+planeta.name+'.jpg';
+              planeta.imagenUrl = "assets/Imagenes/"+planeta.name+'.jpg';
               return planeta;
             }
           )
