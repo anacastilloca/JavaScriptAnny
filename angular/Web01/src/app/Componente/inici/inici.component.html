@@ -158,7 +158,8 @@
 <!--AQUÍ INICIA LO DEL PLANETA DE STAR WARS ---------------------------------  -->
 <!--splice eliminar del arreglo y push para agregar-->
 <div class="container">
-  <h1>Bienvenidos</h1>
+
+  <!--<h1>Bienvenidos</h1>
   <h2>Usuarios</h2>
 
   <div class="row">
@@ -179,14 +180,13 @@
       </div>
     </div>
   </div>
-
+-->
 
   <h2>Planetas</h2>
   <button class="btn btn-outline-success" (click)="cargarPlanetas()">Cargar Planetas</button>
   <div class="row">
     <div class="col-sm-4" *ngFor="let planetaVariable of planetas; let i=index;">
       <app-planeta-star-wars [planeta]="planetaVariable">
-
 
       </app-planeta-star-wars>
 
