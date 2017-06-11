@@ -7,6 +7,11 @@ import { EstiloComponent } from './estilo/estilo.component';
 import { IniciComponent } from './Componente/inici/inici.component';
 import { PlanetasComponent } from './Componente/planetas/planetas.component';
 import { PlanetaStarWarsComponent } from './Componente/planeta-star-wars/planeta-star-wars.component';
+import { OrbitalPeriodComponent } from './Componente/planeta-star-wars/Componentes PSW/orbital-period/orbital-period.component';
+import { DiameterComponent } from './Componente/planeta-star-wars/Componentes PSW/diameter/diameter.component';
+import { ClimateComponent } from './Componente/planeta-star-wars/Componentes PSW/climate/climate.component';
+import { GravityComponent } from './Componente/planeta-star-wars/Componentes PSW/gravity/gravity.component';
+import { TerrainComponent } from './Componente/planeta-star-wars/Componentes PSW/terrain/terrain.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { PlanetaStarWarsComponent } from './Componente/planeta-star-wars/planeta
     EstiloComponent,
     IniciComponent,
     PlanetasComponent,
-    PlanetaStarWarsComponent
+    PlanetaStarWarsComponent,
+    OrbitalPeriodComponent,
+    DiameterComponent,
+    ClimateComponent,
+    GravityComponent,
+    TerrainComponent
   ],
   imports: [
     BrowserModule,
