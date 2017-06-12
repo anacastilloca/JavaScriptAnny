@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {PlanetaStarWarsInterface} from "../../../../Interfaces/PlanetaStarWars";
 
 @Component({
   selector: 'app-diameter',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./diameter.component.css']
 })
 export class DiameterComponent implements OnInit {
+  @Input() diameterPlanet:PlanetaStarWarsInterface;
 
   constructor() { }
 
   ngOnInit() {
+    console.log('El valor del diametros es:',this.diameterPlanet.diameter);
   }
 
 }

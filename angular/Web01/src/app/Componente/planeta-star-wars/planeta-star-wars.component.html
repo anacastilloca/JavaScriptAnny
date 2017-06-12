@@ -1,10 +1,18 @@
 <div>
   <h2>{{planeta.name}}</h2>
-  <p>Horas en el dia:
-    <strong>{{planeta.rotation_period}}</strong> h
+  <p><strong>Horas en el dia:</strong>
+     <strong>{{planeta.rotation_period}}</strong> h
   </p>
-  <!--<app-planeta-star-wars [planeta]="planeta">
 
-    </app-planeta-star-wars>-->
+  <app-climate [climatePlanet]="planeta"> </app-climate>
+
+  <app-diameter [diameterPlanet]="planeta"> </app-diameter>
+
+  <app-gravity [gravedadPlanet]="planeta"> </app-gravity>
+
+  <app-orbital-period [periodoOrbitalPlanet]="planeta"> </app-orbital-period>
+
+  <app-terrain [terrenoPlanet]="planeta"> </app-terrain>
+
 
 </div>

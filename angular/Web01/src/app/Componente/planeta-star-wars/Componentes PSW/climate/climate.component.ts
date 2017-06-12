@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {PlanetaStarWarsInterface} from "../../../../Interfaces/PlanetaStarWars";
 
 @Component({
   selector: 'app-climate',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./climate.component.css']
 })
 export class ClimateComponent implements OnInit {
-
+  @Input() climatePlanet:PlanetaStarWarsInterface;
   constructor() { }
 
   ngOnInit() {

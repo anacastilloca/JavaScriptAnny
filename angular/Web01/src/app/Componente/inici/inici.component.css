@@ -1,1 +1,10 @@
-
+.container{
+  background-color: black;
+  color: white;
+}
+.col-sm-4{
+  border: green 1px solid
+}
+.btn{
+  margin-bottom: 30px;
+}

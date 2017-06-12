@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {PlanetaStarWarsInterface} from "../../../../Interfaces/PlanetaStarWars";
 
 @Component({
   selector: 'app-terrain',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./terrain.component.css']
 })
 export class TerrainComponent implements OnInit {
+  @Input() terrenoPlanet:PlanetaStarWarsInterface
 
   constructor() { }
 
