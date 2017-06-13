@@ -107,6 +107,7 @@ export class IniciComponent implements OnInit {
       .subscribe(respuesta=>{
           let respuestaJson=respuesta.json();
           console.log('respuestaJson: ',respuestaJson);
+          this.usuarios.push(respuestaJson)
         },
         error=>{
         console.log("Error ", error)
