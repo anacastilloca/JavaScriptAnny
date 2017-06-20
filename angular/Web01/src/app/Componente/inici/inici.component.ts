@@ -134,6 +134,29 @@ export class IniciComponent implements OnInit {
       )
 
   }
+
+  actualizarUsuario(usuario:UsuarioClass){
+    let actualizacion={
+      nombre:usuario.nombre
+    };
+    this._http.put("http://localhost:1337/Usuario"+usuario.id,actualizacion).map(
+      (res)=>{
+        return res.json();
+        //snippet template de codigo para reutilizarlo DEBER
+      }).subscribe(
+        res=>{
+          //el servidor nos dice que se actualizo
+          console.log("El usuario se actualizo",res);
+        },
+      err =>{
+          //Hubo algun problema (Red servidor)
+        console.log("Hubo un error", err)
+      }
+
+
+
+    )
+  }
 }
 
 
