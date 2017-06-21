@@ -13,6 +13,11 @@ import { ClimateComponent } from './Componente/planeta-star-wars/Componentes PSW
 import { GravityComponent } from './Componente/planeta-star-wars/Componentes PSW/gravity/gravity.component';
 import { TerrainComponent } from './Componente/planeta-star-wars/Componentes PSW/terrain/terrain.component';
 import { UsuarioComponent } from './Componente/usuario/usuario.component';
+import { Pagina2Component } from './Componente/pagina2/pagina2.component';
+import {ModuloDeRutas} from "./routes";
+import { Pagina21Component } from './Componente/pagina2/ComponentesH/pagina21/pagina21.component';
+import { Pagina22Component } from './Componente/pagina2/ComponentesH/pagina22/pagina22.component';
+import { Pagina23Component } from './Componente/pagina2/ComponentesH/pagina23/pagina23.component';
 
 @NgModule({
   declarations: [
@@ -26,15 +31,20 @@ import { UsuarioComponent } from './Componente/usuario/usuario.component';
     ClimateComponent,
     GravityComponent,
     TerrainComponent,
-    UsuarioComponent
+    UsuarioComponent,
+    Pagina2Component,
+    Pagina21Component,
+    Pagina22Component,
+    Pagina23Component
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    ModuloDeRutas
   ],
   providers: [],
   //http
-  bootstrap: [IniciComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

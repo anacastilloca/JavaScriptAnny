@@ -1,4 +1,4 @@
-<h1> Mi primer </h1>
+<!--<h1> Mi primer </h1>
 <h2>Property binding </h2>
 <p id="bind"></p>
 <h3>Primera forma con llaves dobles</h3>
@@ -10,14 +10,14 @@
 <p [style.color]="'white'"
    [style.background-color]="background"
    [innerText]="parrafo"></p>
-<!--Se puede usar los componentes cuntas veces se desee-->
+<!--Se puede usar los componentes cuntas veces se desee CIERRE DE COMENTARIO
 <app-estilo></app-estilo>
 <app-estilo></app-estilo>
 <app-estilo></app-estilo>
 
 
 <input type="text" [value]="parrafo">
-<!--Tag para salto de linea-->
+<!--Tag para salto de linea CIERRE DE COMENTARIO
 <br>
 <br>
 <br>
@@ -34,7 +34,21 @@ Hacer esto
 <!--<h3> Creado por {{usuario.nombre + usuario.apellido}}NO HACER ESTO</h3>-->
 <!--<h3> Creado por {{usuario.nombre , usuario.apellido}}</h3>DA ERROR porquela coma
 no significa nada en javscript-->
-<!--<h3> Creado por {{saludar(usuario.nombre,usuario.apellido)}}</h3>NO HACER ESTO-->
+<!--<h3> Creado por {{saludar(usuario.nombre,usuario.apellido)}}</h3>NO HACER ESTO CIERRE DE COMENTARIO
 <a [href]="url">
   <img src="https://christianliebel.com/wp-content/uploads/2016/02/Angular2.png" alt="Logo">
 </a>
+-->
+
+<h1>PRINCIPAL</h1>
+<h3>Header</h3>
+<ul>
+  <li>
+    <a [routerLink]="['inicio']">Inicio</a>
+  </li>
+  <li>
+    <a [routerLink]="['pagina2']">Pagina2</a>
+  </li>
+</ul>
+<router-outlet></router-outlet>
+<h4>Footer</h4>

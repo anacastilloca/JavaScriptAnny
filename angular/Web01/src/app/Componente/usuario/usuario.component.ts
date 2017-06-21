@@ -8,7 +8,9 @@ import {Http} from "@angular/http";
   styleUrls: ['./usuario.component.css']
 })
 export class UsuarioComponent implements OnInit {
+  //Para insertar algo
   @Input() usuarioC:UsuarioClass;
+  //Para contactar al que me esta comunicando
   @Output() usuarioborrado = new EventEmitter();
 
   constructor(private _http:Http) { }
@@ -18,12 +20,13 @@ export class UsuarioComponent implements OnInit {
 
   }
 
+  //Eliminar Usuario BackEnd
   eliminarUsuario(usuario: UsuarioClass, indice: number) {
 
     this._http.delete("http://localhost:1337/Usuario/"+usuario.id)
       .subscribe(respuesta=>{
 
-          this.usuarioborrado.emit(usuario);
+        this.usuarioborrado.emit(usuario);
           //this.usuarios.splice(this.usuarios.indexOf(usuario),1)
 
         },
@@ -46,7 +49,7 @@ export class UsuarioComponent implements OnInit {
         //el servidor nos dice que se actualizo
         console.log("El usuario se actualizo",res);
 
-        this.usuarioC.nombre = nombre
+        this.usuarioC.nombre = nombre;
         this.usuarioC.editar = !this.usuarioC.editar;
 
        // let indice = this.usuarios.indexOf(usuario);
