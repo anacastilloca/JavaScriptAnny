@@ -193,13 +193,13 @@
     <div class="col-sm-6" *ngFor="let usuario of usuarios;let indice = index;">
       <div class="margin-usuarios">
         <!--PORQUE SE PONE ESTO-->
-        <div *ngIf="!usuario.editar">
+        <div class="animated rollIn" *ngIf="!usuario.editar">
           <h3>{{usuario.nombre}}</h3>
           <!--OJO PREGUANTAR QUE HACE LA LINEA CON EL EVENTO CLICK-->
           <button class="btn btn-warning" (click)="usuario.editar=!usuario.editar">Editar Usuario</button>
         </div>
 
-        <div *ngIf="usuario.editar">
+        <div class="animated bounceIn" *ngIf="usuario.editar">
           <h4>Actualizar</h4>
           <!--<div class="form-group">
             <label class="col-form-label">Nombre Usuario</label>

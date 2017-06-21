@@ -129,13 +129,12 @@ export class IniciComponent implements OnInit {
     console.log("Indice:", this.usuarios.indexOf(usuario));
     console.log("Indice con index: ", indice);
     console.log("Usuarios : ", this.usuarios);
-    console.log("Usuariofff : ", usuario.id);
-    this.usuarios.splice(indice,1);
+    console.log("Usuariofff : ", this.usuarios.indexOf(usuario));
 
-    this._http.delete("http://localhost:1337/Usuario?id="+usuario.id)
+    this._http.delete("http://localhost:1337/Usuario/"+usuario.id)
       .subscribe(respuesta=>{
-          let respuestaJson=respuesta.json();
-          console.log('respuestaJsonoooooo: ',respuestaJson);
+          this.usuarios.splice(this.usuarios.indexOf(usuario),1)
+
         },
         error=>{
           console.log("Error ", error)
@@ -159,6 +158,7 @@ export class IniciComponent implements OnInit {
 
           let indice = this.usuarios.indexOf(usuario);
           this.usuarios[indice].nombre = nombre;
+          this.usuarios[indice].editar = !this.usuarios[indice].editar;
         },
       err =>{
           //Hubo algun problema (Red servidor)
