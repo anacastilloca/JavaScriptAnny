@@ -19,15 +19,15 @@ export const routees:Routes = [
     component:Pagina2Component,
     children:[
       {
-        path:"pagina21",
+        path:"pagina21/:idPartes",
         component:Pagina21Component
       },
       {
-        path:"pagina22",
+        path:"pagina22/:idCompetencias",
         component:Pagina22Component
       },
       {
-        path:"pagina23",
+        path:"pagina23/:idDuenios",
         component:Pagina23Component
       },
     ]
