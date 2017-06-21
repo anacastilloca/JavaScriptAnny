@@ -45,7 +45,15 @@ export class IniciComponent implements OnInit {
     this._http.get("http://localhost:1337/Usuario")
       .subscribe(respuesta=>{
           let rjson:UsuarioClass[]=respuesta.json();
-          this.usuarios=rjson;
+
+          this.usuarios=rjson.map(
+            (usuario:UsuarioClass)=>{
+              //Cambiar usuario
+              usuario.editar=false;
+              return usuario;
+            }
+          );
+
           console.log("Usuarios: ",this.usuarios);
         },
         error=>{
@@ -106,8 +114,9 @@ export class IniciComponent implements OnInit {
     this._http.post("http://localhost:1337/Usuario",this.nuevoUsuario)
       .subscribe(respuesta=>{
           let respuestaJson=respuesta.json();
+          this.usuarios.push(respuestaJson);
+          this.nuevoUsuario = new UsuarioClass();
           console.log('respuestaJson: ',respuestaJson);
-          this.usuarios.push(respuestaJson)
         },
         error=>{
         console.log("Error ", error)
@@ -135,11 +144,11 @@ export class IniciComponent implements OnInit {
 
   }
 
-  actualizarUsuario(usuario:UsuarioClass){
+  actualizarUsuario(usuario:UsuarioClass, nombre:string){
     let actualizacion={
-      nombre:usuario.nombre
+      nombre:nombre
     };
-    this._http.put("http://localhost:1337/Usuario"+usuario.id,actualizacion).map(
+    this._http.put("http://localhost:1337/Usuario/"+usuario.id,actualizacion).map(
       (res)=>{
         return res.json();
         //snippet template de codigo para reutilizarlo DEBER
@@ -147,15 +156,15 @@ export class IniciComponent implements OnInit {
         res=>{
           //el servidor nos dice que se actualizo
           console.log("El usuario se actualizo",res);
+
+          let indice = this.usuarios.indexOf(usuario);
+          this.usuarios[indice].nombre = nombre;
         },
       err =>{
           //Hubo algun problema (Red servidor)
         console.log("Hubo un error", err)
       }
-
-
-
-    )
+    );
   }
 }
 
