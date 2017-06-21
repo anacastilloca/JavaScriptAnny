@@ -8,7 +8,7 @@ import {ActivatedRoute, Router} from "@angular/router";
 })
 export class Pagina21Component implements OnInit {
 
-  constructor(private router:Router,private rutaActiva:ActivatedRoute) { }
+  constructor(private _router:Router,private rutaActiva:ActivatedRoute) { }
 
   ngOnInit() {
     //Parametros de ruta actual (HIJO)
@@ -23,6 +23,10 @@ export class Pagina21Component implements OnInit {
         console.log("Parametros de mi padre ",params)
       }
     )
+  }
+
+  navegarAInicio(){
+    this._router.navigate(["pagina2",2,4,"pagina22",9]);
   }
 
 }
