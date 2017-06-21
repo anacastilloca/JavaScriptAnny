@@ -1,3 +1,35 @@
-<p>
-  usuario works!
-</p>
+<h3>{{usuarioC.id}} {{usuarioC.nombre}} </h3>
+
+<!--PORQUE SE PONE ESTO -->
+<div class="animated rollIn" *ngIf="!usuarioC.editar">
+  <h3>{{usuarioC.nombre}}</h3>
+  <!--OJO PREGUANTAR QUE HACE LA LINEA CON EL EVENTO CLICK -->
+  <button class="btn btn-warning" (click)="usuarioC.editar=!usuarioC.editar">Editar Usuario</button>
+</div>
+
+<div class="animated bounceIn" *ngIf="usuarioC.editar">
+  <h4>Actualizar</h4>
+  <!--<div class="form-group">
+    <label class="col-form-label">Nombre Usuario</label>
+    <input class="form-control"
+           placeholder="Ingrese nuevo Nombre"
+           [(ngModel)]="usuario.nombre" type="text">
+  </div> -->
+
+  <div class="form-group">
+    <label class="col-form-label">Nombre Usuario: </label>
+    <input class="form-control"
+           placeholder="Ingrese nuevo Nombre"
+           type="text"
+           #usuarioNombre
+    >
+  </div>
+
+  <button class="btn btn-primary" (click)="actualizarUsuario(usuarioC, usuarioNombre.value)"> Actualizar usuario</button>
+  <!--<button class="btn btn-primary" (click)="actualizarUsuario(usuario)"> Actualizar usuario</button> -->
+
+  <button class="btn btn-danger" (click)="eliminarUsuario(usuarioC,indice)"> Eliminar usuario</button>
+
+  <button class="btn btn-secondary" (click)="usuarioC.editar=!usuarioC.editar"> Cancelar Usuario</button>
+
+</div>
