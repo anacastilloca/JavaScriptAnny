@@ -180,12 +180,12 @@
         <div class="form-group">
           <label class="col-form-label">Nombre Usuario</label>
           <input class="form-control"
-                 placeholder="Ingrese nuevo Nombre" name="nombreUser"
-                 [(ngModel)]="nuevoUsuario.nombre" type="text"
-          >
+                 placeholder="Ingrese nuevo Nombre" name="nombreUser">
+                 <!--[(ngModel)]="nuevoUsuario.nombre" type="text" dentro de input-->
+
         </div>
         <button class="btn btn-success" type="submit" >Crear Usuario</button>
-        <button class="btn btn-warning">Cancelar</button>
+        <button class="btn btn-warning" type="button">Cancelar</button>
       </div>
     </div>
   </form>

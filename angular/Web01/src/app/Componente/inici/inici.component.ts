@@ -106,7 +106,9 @@ export class IniciComponent implements OnInit {
   }
 
   crearUsuario() {
-    console.log("Entro a crear un Usuario")
+
+    console.log("Entro a crear un Usuario");
+    console.log(this.nuevoUsuario)
     /*
      let usuario={
      nombre:this.nuevoUsuario.nombre

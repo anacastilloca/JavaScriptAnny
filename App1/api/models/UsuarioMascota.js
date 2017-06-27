@@ -21,7 +21,7 @@ module.exports = {
     fechaDeFinalizacionAdopcion:{
       type:'date'
     }
-
+//http://localhost:1337/UsuarioMascota/create?idUsuario=3&idMascota=5952c23311776f38039c3346&fechaDeAdapcion=2015-03-03
   }
 };
 
