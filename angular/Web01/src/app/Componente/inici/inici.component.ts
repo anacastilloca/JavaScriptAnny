@@ -106,11 +106,12 @@ export class IniciComponent implements OnInit {
   }
 
   crearUsuario() {
+    console.log("Entro a crear un Usuario")
     /*
      let usuario={
      nombre:this.nuevoUsuario.nombre
      }*/
-    this._http.post("http://localhost:1337/Usuario", this.nuevoUsuario)
+    /*this._http.post("http://localhost:1337/Usuario", this.nuevoUsuario)
       .subscribe(respuesta => {
           let respuestaJson = respuesta.json();
           this.usuarios.push(respuestaJson);
@@ -120,7 +121,7 @@ export class IniciComponent implements OnInit {
         error => {
           console.log("Error ", error)
         }
-      )
+      )*/
   }
 
   //Este metodo se ejecuta con un evento del componente hijo
