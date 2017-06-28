@@ -18,6 +18,7 @@ import {ModuloDeRutas} from "./routes";
 import { Pagina21Component } from './Componente/pagina2/ComponentesH/pagina21/pagina21.component';
 import { Pagina22Component } from './Componente/pagina2/ComponentesH/pagina22/pagina22.component';
 import { Pagina23Component } from './Componente/pagina2/ComponentesH/pagina23/pagina23.component';
+import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { Pagina23Component } from './Componente/pagina2/ComponentesH/pagina23/pa
     BrowserModule,
     FormsModule,
     HttpModule,
+    NgbModule.forRoot() ,
     ModuloDeRutas
   ],
   providers: [],

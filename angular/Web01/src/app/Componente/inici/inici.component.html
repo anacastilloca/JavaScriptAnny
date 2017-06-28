@@ -181,13 +181,13 @@
           <label class="col-form-label">Nombre Usuario</label>
 
           <input class="form-control" required minlength="3" maxlength="15"
-                 placeholder="Ingrese nuevo Nombre" name="nombreUser" type="text"
+                 placeholder="Ingrese nuevo Nombre" name="nombre" type="text"
                 [(ngModel)]="nuevoUsuario.nombre"
                  #nombre="ngModel"
                  #nombreTAG
           >
           <input class="form-control" required minlength="5"
-                 placeholder="Ingrese nuevo Correo" name="nombreUser" type="email"
+                 placeholder="Ingrese nuevo Correo" name="correo" type="email"
                  pattern="[A-Za-z1-9._]+@[A-Za-z\.]+"
                  [(ngModel)]="nuevoUsuario.correo"
                  #correo="ngModel"
