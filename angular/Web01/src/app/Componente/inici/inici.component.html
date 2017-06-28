@@ -174,17 +174,41 @@
   <h1>Bienvenidos</h1>
   <h2>Usuarios</h2>
   <!--Form se utiliza para validar (crear, borrar, actulizar) PARA BORRAR nop-->
-  <form (ngSubmit)="crearUsuario()" #userForm="ngForm" novalidate>
+  <form (ngSubmit)="crearUsuario(userForm)" #userForm="ngForm" novalidate>
     <div class="row">
       <div class="col-sm-6">
         <div class="form-group">
           <label class="col-form-label">Nombre Usuario</label>
-          <input class="form-control"
-                 placeholder="Ingrese nuevo Nombre" name="nombreUser">
-                 <!--[(ngModel)]="nuevoUsuario.nombre" type="text" dentro de input-->
 
-        </div>
-        <button class="btn btn-success" type="submit" >Crear Usuario</button>
+          <input class="form-control" required minlength="3" maxlength="15"
+                 placeholder="Ingrese nuevo Nombre" name="nombreUser" type="text"
+                 pattern="[A-Za-z]{3}"
+                [(ngModel)]="nuevoUsuario.nombre"
+                 #nombre="ngModel"
+                 #nombreTAG
+          >
+          <!--[(ngModel)]="nuevoUsuario.nombre" type="text" dentro de input-->
+          <div *ngIf="nombre.errors?.minlength&&nombre.touched==true" class="alert alert-warning animated bounceIn" role="alert">
+            <strong>¡Cuidado!</strong> Debes de llenar el campo desde 3 hasta 15 caracteres.
+          </div>
+
+          <div *ngIf="nombre.errors?.required&&nombre.touched==true" class="alert alert-danger animated bounceIn" role="alert">
+            <strong>¡Peligro!</strong> Este campo es requerido.
+          </div>
+
+          <pre>
+             Errores:
+            {{nombre.errors | json}}
+            Touched:
+            {{nombre.touched}}
+            Dirty:
+            {{nombre.dirty}}
+            Pristine:
+            {{nombre.pristine}}
+           </pre>
+         </div>
+
+        <button class="btn btn-success" [disabled]="!userForm.valid">Crear Usuario</button>
         <button class="btn btn-warning" type="button">Cancelar</button>
       </div>
     </div>

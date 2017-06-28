@@ -9,7 +9,7 @@ module.exports = {
   connection: 'conexionMySqlDocker',
   attributes: {
     nombre: {
-      type: 'string'
+      type: 'integer'
     },
     dueniosMascotas:{
       collection:'UsuarioMascota',
