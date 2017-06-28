@@ -182,17 +182,31 @@
 
           <input class="form-control" required minlength="3" maxlength="15"
                  placeholder="Ingrese nuevo Nombre" name="nombreUser" type="text"
-                 pattern="[A-Za-z]{3}"
                 [(ngModel)]="nuevoUsuario.nombre"
                  #nombre="ngModel"
                  #nombreTAG
+          >
+          <input class="form-control" required minlength="5"
+                 placeholder="Ingrese nuevo Correo" name="nombreUser" type="email"
+                 pattern="[A-Za-z1-9._]+@[A-Za-z\.]+"
+                 [(ngModel)]="nuevoUsuario.correo"
+                 #correo="ngModel"
+                 #correoTAG
           >
           <!--[(ngModel)]="nuevoUsuario.nombre" type="text" dentro de input-->
           <div *ngIf="nombre.errors?.minlength&&nombre.touched==true" class="alert alert-warning animated bounceIn" role="alert">
             <strong>¡Cuidado!</strong> Debes de llenar el campo desde 3 hasta 15 caracteres.
           </div>
 
+          <div *ngIf="correo.errors?.minlength&&correo.touched==true" class="alert alert-warning animated bounceIn" role="alert">
+            <strong>¡Cuidado!</strong> Debes de llenar el campo con 20 caracteres.
+          </div>
+
           <div *ngIf="nombre.errors?.required&&nombre.touched==true" class="alert alert-danger animated bounceIn" role="alert">
+            <strong>¡Peligro!</strong> Este campo es requerido.
+          </div>
+
+          <div *ngIf="correo.errors?.required&&correo.touched==true" class="alert alert-danger animated bounceIn" role="alert">
             <strong>¡Peligro!</strong> Este campo es requerido.
           </div>
 
@@ -205,7 +219,15 @@
             {{nombre.dirty}}
             Pristine:
             {{nombre.pristine}}
+
            </pre>
+          <pre>
+            {{correo.errors | json}}
+             Touched:
+            {{correo.touched}}
+            Pattern
+            {{correo.pattern}}
+          </pre>
          </div>
 
         <button class="btn btn-success" [disabled]="!userForm.valid">Crear Usuario</button>

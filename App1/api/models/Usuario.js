@@ -9,13 +9,16 @@ module.exports = {
   connection: 'conexionMySqlDocker',
   attributes: {
     nombre: {
-      type: 'integer'
+      type: 'string'
     },
+    correo:{
+      type:'email'
+    }
+
+  },
     dueniosMascotas:{
       collection:'UsuarioMascota',
       via:'idUsuario'
     }
-
-  }
 };
 
