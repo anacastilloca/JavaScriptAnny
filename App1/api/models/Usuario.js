@@ -13,12 +13,15 @@ module.exports = {
     },
     correo:{
       type:'email'
-    }
-
-  },
+    },
+    contrasenia:{
+      type:'string'
+    },
     dueniosMascotas:{
       collection:'UsuarioMascota',
       via:'idUsuario'
     }
+  }
+
 };
 
