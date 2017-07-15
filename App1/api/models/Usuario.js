@@ -42,5 +42,23 @@ module.exports = {
     /*}else {
       cb()
     }*/
+  },
+  //http://localhost:1337/Usuario/update/5?contrasenia=123456789
+  beforeUpdate:function (valorActualizar,cb) {
+    if(valorActualizar.contrasenia) {
+    pswU.encryptPassword({
+      password: valorActualizar.contrasenia,
+    }).exec({
+      error: function (err) {
+        cb("Error en hash contraseña", err)
+      },
+      success: function (hashedContrasenia) {
+        valorActualizar.contrasenia = hashedContrasenia
+        cb();
+      },
+    });
+    }else {
+     cb()
+     }
   }
 }
