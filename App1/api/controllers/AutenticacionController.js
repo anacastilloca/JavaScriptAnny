@@ -14,6 +14,9 @@
 //npm install --save machinepack-passwords
 var psw = require('machinepack-passwords');
 
+//npm install --save jsonwebtoken   //Para dar los permisos
+var jwt=require('jsonwebtoken');
+
 module.exports = {
   logIn:function (req,res) {
     var parametros= req.allParams();
@@ -38,7 +41,18 @@ module.exports = {
               return res.badRequest("Datos invalidos")
             },
             success: function (result) {
-              return res.ok("Esta logeado")
+            var token=  jwt.sign({
+                  // exp:Para poner un limite de tiempo para expirar el token
+                  exp:Math.floor(Date.now()/1000)+(60*60),
+                  data:{
+                    id:usuarioEncontrado.id,
+                    nombre:usuarioEncontrado.nombre,
+                    correo:usuarioEncontrado.correo
+                  }
+                },
+                'esteEsElSecreto'
+              );
+              return res.ok(token)
             },
           });
           /*if (parametros.contrasenia==usuarioEncontrado.contrasenia){

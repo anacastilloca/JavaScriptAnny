@@ -4,6 +4,9 @@
  * @description :: TODO: You might write a short summary of how this model works and what it represents here.
  * @docs        :: http://sailsjs.org/documentation/concepts/models-and-orm/models
  */
+
+
+
 var pswU = require('machinepack-passwords');
 module.exports = {
   connection: 'conexionMySqlDocker',
@@ -23,6 +26,7 @@ module.exports = {
       via: 'idUsuario'
     }
   },
+  //http://sailsjs.com/documentation/concepts/models-and-orm/lifecycle-callbacks
   beforeCreate: function (usuario, cb) {
     //sails.log.info("Usuario",usuario);
     //usuario.nombre="Ana"; Estos valore persisten cuando se crea un usuario
