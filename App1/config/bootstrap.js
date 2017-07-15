@@ -11,7 +11,8 @@
 var pswB = require('machinepack-passwords');
 module.exports.bootstrap = function(cb) {
   //console.log("Antes de levantar")
-  Usuario.findOne({
+  cb(); //Aquí se levante el sails
+  /*Usuario.findOne({
     correo:"am@d.com"
   }).exec(function (err,usuarioEncontrado) {
     if(err) cb("error");
@@ -52,5 +53,5 @@ module.exports.bootstrap = function(cb) {
   })
 
   //cb(); //para que se levante el sails..solo se llama una sola vez
-
+*/
 };
