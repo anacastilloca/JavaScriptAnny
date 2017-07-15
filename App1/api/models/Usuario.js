@@ -16,7 +16,7 @@ module.exports = {
     },
     contrasenia: {
       type: 'string',
-      required:true
+     required:true
     },
     dueniosMascotas: {
       collection: 'UsuarioMascota',
@@ -27,7 +27,7 @@ module.exports = {
     //sails.log.info("Usuario",usuario);
     //usuario.nombre="Ana"; Estos valore persisten cuando se crea un usuario
     //usuario.contrasenia="123456";
-    if(usuario.contrasenia) {
+    //if(usuario.contrasenia) {
       pswU.encryptPassword({
         password: usuario.contrasenia,
       }).exec({
@@ -39,8 +39,8 @@ module.exports = {
           cb();
         },
       });
-    }else {
+    /*}else {
       cb()
-    }
+    }*/
   }
 }
