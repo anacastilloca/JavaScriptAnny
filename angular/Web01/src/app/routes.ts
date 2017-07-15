@@ -5,6 +5,7 @@ import {ModuleWithProviders} from "@angular/core";
 import {Pagina21Component} from "./Componente/pagina2/ComponentesH/pagina21/pagina21.component";
 import {Pagina22Component} from "./Componente/pagina2/ComponentesH/pagina22/pagina22.component";
 import {Pagina23Component} from "./Componente/pagina2/ComponentesH/pagina23/pagina23.component";
+import {LoginComponent} from "./Componente/Login/login/login.component";
 /**
  * Created by USRDEL on 6/21/17.
  */
@@ -31,6 +32,10 @@ export const routees:Routes = [
         component:Pagina23Component
       },
     ]
+  },
+  {
+    path:"login",
+    component:LoginComponent,
   }
 ]
 

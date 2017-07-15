@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {TokenService} from "./token.service";
 
 @Component({
   selector: 'js-raiz',
@@ -18,7 +19,9 @@ export class AppComponent {
   //Metodo para app.component.html
   url:string="https://angular.io";
 
-  constructor(){
+  constructor(private  _TokenService:TokenService){
+    this._TokenService.token="Busca tu Constructor Lili";
+
     this.usuario.nombre="Ana";
     this.parrafo="Para usar el bind";
     setTimeout(()=>{

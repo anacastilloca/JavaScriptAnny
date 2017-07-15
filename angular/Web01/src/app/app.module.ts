@@ -19,6 +19,8 @@ import { Pagina21Component } from './Componente/pagina2/ComponentesH/pagina21/pa
 import { Pagina22Component } from './Componente/pagina2/ComponentesH/pagina22/pagina22.component';
 import { Pagina23Component } from './Componente/pagina2/ComponentesH/pagina23/pagina23.component';
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
+import { LoginComponent } from './Componente/Login/login/login.component';
+import {TokenService} from "./token.service";
 
 @NgModule({
   declarations: [
@@ -36,7 +38,8 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
     Pagina2Component,
     Pagina21Component,
     Pagina22Component,
-    Pagina23Component
+    Pagina23Component,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +48,9 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
     NgbModule.forRoot() ,
     ModuloDeRutas
   ],
-  providers: [],
+  providers: [
+    TokenService
+  ],
   //http
   bootstrap: [AppComponent]
 })
